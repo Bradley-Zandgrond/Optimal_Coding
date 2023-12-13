@@ -23,7 +23,7 @@
             </ul>
             <div class="buttons-container">
                 <button id="btn" onclick="alert('Optimal Coding got added to your browser (just for show)')">download</button>
-                <div id="setting" onclick="settingAnimation()"><i class="fa-solid fa-gear" style="color: #ffffff;"></i></div>
+                <div id="user" onclick="user()"><i class="fa-solid fa-user" style="color: #ffffff;"></i></div>
             </div>
         </div>
     </nav>
@@ -41,16 +41,6 @@
             </div>
         </div>
     </footer>
-    <div id="settings-dropdown">
-        <label for="color-mode">Choose color mode:</label>
-        <div class="toggle-container">
-            <input type="checkbox" id="color-mode-toggle" onchange="changeColorMode()">
-            <label for="color-mode-toggle">
-                <i class="fa-regular fa-toggle-on" style="color: #000000;"></i>
-                <i class="fa-regular fa-toggle-off" style="color: #000000;"></i>
-            </label>
-        </div>
-    </div>
 <?php
 
 
@@ -59,29 +49,5 @@
 
 
 ?>
-<script>
-    function settingAnimation() {
-        var settingElement = document.getElementById("setting");
-        settingElement.innerHTML = '<i class="fa-solid fa-gear fa-shake" style="color: #ffffff;"></i>';
-        setTimeout(function () {
-            settingElement.innerHTML = '<i class="fa-solid fa-gear" style="color: #ffffff;"></i>';
-            toggleSettings(); // Call toggleSettings to open the dropdown
-        }, 250);
-    }
-    
-    function toggleSettings() {
-        var settingsDropdown = document.getElementById("settings-dropdown");
-        settingsDropdown.classList.toggle("show");
-    }
-    
-    function changeColorMode() {
-        var colorModeToggle = document.getElementById("color-mode-toggle");
-        var colorMode = colorModeToggle.checked ? "dark" : "light";
-    
-        document.body.style.backgroundColor = (colorMode === "dark") ? "#131313" : "#fff";
-        document.querySelector(".navbar").style.backgroundColor = (colorMode === "dark") ? "#191919" : "#131313";
-        document.querySelector("footer").style.backgroundColor = (colorMode === "dark") ? "#191919" : "#131313";
-    }
-</script>
 </body>
 </html>
