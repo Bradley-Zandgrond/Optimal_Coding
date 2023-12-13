@@ -27,6 +27,9 @@
             </div>
         </div>
     </nav>
+    <main>
+
+    </main>
     <footer>
         <div class="footer-container">
             <p>about us</p>
@@ -48,30 +51,37 @@
             </label>
         </div>
     </div>
+<?php
+
+
+
+
+
+
+?>
+<script>
+    function settingAnimation() {
+        var settingElement = document.getElementById("setting");
+        settingElement.innerHTML = '<i class="fa-solid fa-gear fa-shake" style="color: #ffffff;"></i>';
+        setTimeout(function () {
+            settingElement.innerHTML = '<i class="fa-solid fa-gear" style="color: #ffffff;"></i>';
+            toggleSettings(); // Call toggleSettings to open the dropdown
+        }, 250);
+    }
     
-    <script>
-        function settingAnimation() {
-            var settingElement = document.getElementById("setting");
-            settingElement.innerHTML = '<i class="fa-solid fa-gear fa-shake" style="color: #ffffff;"></i>';
-            setTimeout(function () {
-                settingElement.innerHTML = '<i class="fa-solid fa-gear" style="color: #ffffff;"></i>';
-                toggleSettings(); // Call toggleSettings to open the dropdown
-            }, 250);
-        }
+    function toggleSettings() {
+        var settingsDropdown = document.getElementById("settings-dropdown");
+        settingsDropdown.classList.toggle("show");
+    }
     
-        function toggleSettings() {
-            var settingsDropdown = document.getElementById("settings-dropdown");
-            settingsDropdown.classList.toggle("show");
-        }
+    function changeColorMode() {
+        var colorModeToggle = document.getElementById("color-mode-toggle");
+        var colorMode = colorModeToggle.checked ? "dark" : "light";
     
-        function changeColorMode() {
-            var colorModeToggle = document.getElementById("color-mode-toggle");
-            var colorMode = colorModeToggle.checked ? "dark" : "light";
-    
-            document.body.style.backgroundColor = (colorMode === "dark") ? "#131313" : "#fff";
-            document.querySelector(".navbar").style.backgroundColor = (colorMode === "dark") ? "#191919" : "#131313";
-            document.querySelector("footer").style.backgroundColor = (colorMode === "dark") ? "#191919" : "#131313";
-        }
-    </script>
+        document.body.style.backgroundColor = (colorMode === "dark") ? "#131313" : "#fff";
+        document.querySelector(".navbar").style.backgroundColor = (colorMode === "dark") ? "#191919" : "#131313";
+        document.querySelector("footer").style.backgroundColor = (colorMode === "dark") ? "#191919" : "#131313";
+    }
+</script>
 </body>
 </html>
