@@ -33,11 +33,6 @@ body
     font-size: 20px;
 }
 
-.fa-bars 
-{
-    font-size: 20px;
-}
-
 .navbar 
 {
     display: flex;
@@ -68,15 +63,13 @@ body
     border-radius: 0.5rem;
     padding: 12px 14px;
     cursor: pointer;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .buttons-container 
 {
     display: flex;
     align-items: center;
-    margin-right: 1rem;
-    margin-left: 110vh;
 }
 
 .nav_links 
@@ -140,57 +133,7 @@ footer
     cursor: pointer;
 }
 
-.toggle-container 
-{
-    position: relative;
-    display: inline-block;
-}
-
-input[type="checkbox"] 
-{
-    display: none;
-}
-
-label[for="color-mode-toggle"] 
-{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
-
-.fa-regular.fa-toggle-on,
-.fa-regular.fa-toggle-off 
-{
-    font-size: 20px;
-    margin-right: 5px;
-}
-
-input[type="checkbox"]:checked + label i.fa-toggle-on 
-{
-    display: none;
-}
-
-input[type="checkbox"]:checked + label i.fa-toggle-off 
-{
-    display: inline;
-}
-
-input[type="checkbox"] + label i.fa-toggle-off 
-{
-    display: none;
-}
-
-input[type="checkbox"] + label i.fa-toggle-on 
-{
-    display: inline;
-}
-
 .show 
 {
     display: block;
-}
-
-.buttons-container
-{
-    left
 }
