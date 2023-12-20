@@ -6,9 +6,9 @@
     <title>Voorbeeld2 menu project</title>
 </head>
 <body>
-    <h1>Voorbeeld2 menu project</h1>
+    <h1>Voorbeeld2 page 2 project</h1>
 <?php
     include "nav.php";
-?>
+?>    
 </body>
 </html>
