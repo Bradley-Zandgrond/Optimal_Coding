@@ -1,3 +1,4 @@
+<!---------Auteur: Bradley Zandgrond---------->
 <footer>
     <div class="footer-container">
         <p>about us</p>
