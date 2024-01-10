@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <body>
+<?php
+    //bestaat de parameter koptext
 
-<h2>HTML Forms</h2>
-
-<form action="action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+    if(isset($_GET['koptext']) == true) {
+      echo "<h2>" . $_GET['koptext'] . "</h2>";
+    } else {
+      echo "<h2>HTML Forms</h2>";
+    }
+?>
+<form action="action_page.php" method="get">
+  <label for="fname">Password:</label><br>
+  <input type="text" id="fname" name="password" value="John"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">

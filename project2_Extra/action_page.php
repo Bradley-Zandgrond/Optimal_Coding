@@ -7,5 +7,9 @@
 </head>
 <body>
     <h1>Action_page</h1>
+
+    <?php
+        echo "Mijn ingevulde password is: " . $_POST['password'];
+    ?>
 </body>
 </html>
