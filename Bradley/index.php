@@ -11,13 +11,13 @@
 </head>
 <body>
 <?php
-    include "nav.php"
+    include ("./include/nav.php");
 ?>
     <main>
 
     </main>
 <?php
-    include "footer.php"
+    include ("./include/footer.php");
 ?>
 </body>
 </html>

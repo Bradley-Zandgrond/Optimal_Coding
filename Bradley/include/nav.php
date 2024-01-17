@@ -12,10 +12,8 @@
             <li><a href="#">news</a></li>
         </ul>
         <div class="buttons-container">
-            <button onclick="userdropdown()">
-                <i class="fa-solid fa-user"></i>
-            </button>
-            <button id="btn" onclick="alert('Optimal Coding got added to your browser (just for show)')">download</button>
+            <button onclick="userdropdown()"><i class="fa-solid fa-user"></i></button>
+            <button id="Btn" onclick="alert('Optimal Coding got added to your browser (just for show)')">download</button>
         </div>
     </div>
 </nav>
