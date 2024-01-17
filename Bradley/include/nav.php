@@ -9,6 +9,7 @@
         <ul class="nav_links">
             <li><a href="#">creators</a></li>
             <li><a href="#">discover</a></li>
+            <li><a href="#">goals</a></li>
             <li><a href="#">news</a></li>
         </ul>
         <div class="buttons-container">

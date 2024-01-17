@@ -60,7 +60,7 @@ body
 }
 
 /* Button styles */
-.buttons-container button
+#Btn
 {
     display: block;
     font-family: "Montserrat", sans-serif;
@@ -72,7 +72,6 @@ body
     border-radius: 0.5rem;
     padding: 12px 14px;
     cursor: pointer;
-    margin-right: 0rem;
 }
 
 .nav_links 
