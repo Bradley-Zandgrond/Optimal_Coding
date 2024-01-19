@@ -1,0 +1,129 @@
+/* Auteur: Bradley Zandgrond */
+/* Aim Forge */
+.background-thumbnail
+{
+    width: 32.724rem;
+    height: 24rem;
+    position: relative;
+    background-color: #131313;
+}
+
+.Aim-Forge
+{
+    width: 35%;
+    margin-top: 17.5px;
+}
+
+.Aim-Forge, .background-thumbnail
+{
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+.text1
+{
+    top: 170px;
+    left: 770px;
+    color: whitesmoke;
+    position: absolute;
+    z-index: 2;
+}
+
+.text2
+{
+    top: 362px;
+    left: 770px;
+    color: whitesmoke;
+    position: absolute;
+    z-index: 2;
+}
+
+.title
+{
+    top: 120px;
+    left: 250px;
+    color: whitesmoke;
+    position: absolute;
+}
+
+.user-name
+{
+    color: blueviolet;
+}
+
+.pfp
+{
+    top: 110px;
+    left: 180px;
+    width: 4%;
+    height: auto;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.color-flag
+{
+    color: green;
+}
+
+.green-flag
+{
+    top: 340px;
+    left: 420px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    color: green;
+    background-color: rgba(128, 128, 128, 0.69);
+    border-radius: 50px;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.game-thumbnail
+{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.padding
+{
+    padding: 10px;
+}
+
+.instructions
+{
+    top: 200px;
+    left: 770px;
+    width: 480px;
+    height: 150px;
+    font-size: 18px;
+    position: absolute;
+    font-family: cursive;
+    background-color:rgb(224, 239, 255);
+}
+
+.creditsandinfo
+{
+    top: 392px;
+    left: 770px;
+    width: 480px;
+    height: 150px;
+    font-size: 18px;
+    position: absolute;
+    background-color:rgb(224, 239, 255);
+}
+
+.date
+{
+    position: absolute;
+    top: 555px;
+    left: 1100px;
+    color: whitesmoke;
+}
