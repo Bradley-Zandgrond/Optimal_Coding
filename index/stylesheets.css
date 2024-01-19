@@ -129,3 +129,30 @@
 }
 
 /* discover */
+.Bthumb, .Ethumb, .Jthumb
+{
+    width: 20%;
+    height: auto;
+    display: flex;
+}
+
+.search-thumbnail
+{
+    top: 230px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.font-weigth
+{
+    font-weight: bold;
+}
+
+.red
+{
+    color: red;
+}

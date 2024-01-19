@@ -16,12 +16,26 @@
     include ("./include/nav.php");
 ?>
 <main>
-    <div class="">
+    <div class="discoverContainer">
+        <div class="searchbar">
 
+        </div>
+        <div class="search-thumbnail">
+            <!-- Added onclick event to trigger JavaScript function -->
+            <img src="./img/AimForge.png" class="Bthumb" onclick="redirectToAimForgePage()">
+            <img src="./img/AimForge.png" class="Ethumb">
+            <img src="./img/AimForge.png" class="Jthumb">
+        </div>
     </div>
 </main>
 <?php
     include ("./include/footer.php");
 ?>
+<script>
+    // JavaScript function to redirect to aimforgepage
+    function redirectToAimForgePage() {
+        window.location.href = 'aimforgepage.php';
+    }
+</script>
 </body>
 </html>
