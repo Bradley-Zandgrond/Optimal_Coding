@@ -7,10 +7,10 @@
             <div id="pipe" style="width: 0.2rem; height: 2.5rem; background-color: #ffffff; margin-left: 30px;"></div>
         </div>
         <ul class="nav_links">
-            <li><a href="/index/creators.php">creators</a></li>
-            <li><a href="/index/discover.php">discover</a></li>
-            <li><a href="/index/goals.php">goals</a></li>
-            <li><a href="/index/news.php">news</a></li>
+            <li><a href="creators.php">creators</a></li>
+            <li><a href="discover.php">discover</a></li>
+            <li><a href="goals.php">goals</a></li>
+            <li><a href="news.php">news</a></li>
         </ul>
         <div class="buttons-container">
             <button onclick="userdropdown()"><i class="fa-solid fa-user"></i></button>
