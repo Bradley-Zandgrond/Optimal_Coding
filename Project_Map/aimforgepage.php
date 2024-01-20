@@ -24,7 +24,7 @@
 </div>
 <div class="game-thumbnail">
     <div class="background-thumbnail"></div>
-        <a href="#">
+        <a href="./aimforgegame.php">
             <div class="green-flag"><i class="fa-solid fa-flag"></i></div>
         </a>
         <img src="img/AimForge.png" class="Aim-Forge">

@@ -1,0 +1,59 @@
+/* Auteur: Bradley Zandgrond */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+.play, .settings, .extra
+{
+    background-color: white;
+    border: none;
+    display: flex;
+    width: 40px;
+    height: 60px;
+}
+
+.Menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.fa-compress
+{
+    border: none;
+}
+
+g#ame
+{
+    width: 80vw;
+    height: 80vh;
+    border: solid 3px white;
+
+}
+
+#gameContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    cursor: crosshair;
+}
+
+#target {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    cursor: crosshair;
+}
