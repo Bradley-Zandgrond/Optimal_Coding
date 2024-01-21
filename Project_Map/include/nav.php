@@ -7,10 +7,10 @@
             <div id="pipe" style="width: 0.2rem; height: 2.5rem; background-color: #ffffff; margin-left: 30px;"></div>
         </div>
         <ul class="nav_links">
-            <li><a href="creators.php">creators</a></li>
-            <li><a href="discover.php">discover</a></li>
-            <li><a href="goals.php">goals</a></li>
-            <li><a href="news.php">news</a></li>
+            <li style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none;"><a style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none; href="creators.php">creators</a></li>
+            <li style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none;"><a style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none; href="discover.php">discover</a></li>
+            <li style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none;"><a style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none; href="goals.php">goals</a></li>
+            <li style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none;"><a style="font-weight: 500; font-size: 30px; color: #edf0f1; text-decoration: none; href="news.php">news</a></li>
         </ul>
         <div class="buttons-container">
             <button onclick="userdropdown()"><i class="fa-solid fa-user"></i></button>

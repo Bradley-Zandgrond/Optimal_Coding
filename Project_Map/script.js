@@ -1,3 +1,5 @@
+/* Auteur: Bradley Zandgrond */
+
 function performSearch() {
     // Get the search input value
     var searchInput = document.getElementById("searchInput").value;

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./include/styleMenu.css">
-    <link rel="stylesheet" href="stylesheets.css">
+    <link rel="stylesheet" href="./stylesheets.css">
     <title>Creators</title>
 </head>
 <body>

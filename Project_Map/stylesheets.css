@@ -158,3 +158,19 @@
 {
     color: red;
 }
+
+/* aboutmeB */
+.photo
+{
+    width: 30%;
+    heigth: auto;
+    float: left;
+}
+
+.pinfo
+{
+    color: #ffffff;
+    float: left;
+    font-size: 18px;
+    margin-left: 1rem;
+}

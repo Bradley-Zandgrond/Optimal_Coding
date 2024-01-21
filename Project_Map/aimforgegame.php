@@ -10,17 +10,19 @@
 <body>
     <main>
         <div class="Menu">
-            <button id="play">Play</button>
-            <button id="settings"><i class="fa-solid fa-gears fa-flip-horizontal"></i>settings</button>
-            <button id="extra">extra</button>
+            <div class="play">Play</div>
+            <div class="challenges">Challenges</div>
+            <div class="settings">Settings</div>
+            <div class="extra">Extra</div>
         </div>
         <div class="gameContainer">
-            <button onclick="toggleFullScreen()"><i class="fa-solid fa-compress"></i></button>
             <div id="game">
-                <div id="score">Score: 0</div>
-                <div id="accuracy">Accuracy: 100%</div>
                 <div id="target" onclick="hitTarget()"></div>
+                <div id="score" class="bottom">Score: 0</div>
+                <div id="accuracy" class="bottom">Accuracy: 100%</div>
+                <div id="misses" class="bottom">Misses: 0</div>
             </div>
+            <button onclick="toggleFullScreen()" style="border: none;"><i class="fa-solid fa-compress"></i></button>
         </div>
         <script src="./scriptgame.js"></script>
     </main>
