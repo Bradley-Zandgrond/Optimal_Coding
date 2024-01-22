@@ -100,7 +100,14 @@ body
     padding: 10px;
     margin: 0;
 }
-
+    /*text style*/ 
+.nav_links li,.nav_links a 
+{
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
     /*nav links transition*/
 .nav_links li a 
 {

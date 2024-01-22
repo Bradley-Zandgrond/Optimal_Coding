@@ -11,6 +11,7 @@ function hitTarget() {
     updateScore();
     updateAccuracy();
     randomizeTarget();
+    updateMisses();
 }
 
 // Update the score per hit
@@ -43,13 +44,22 @@ function randomizeTarget() {
 
     target.style.left = `${randomX}px`;
     target.style.top = `${randomY}px`;
+}
 
-    // Increment misses when the target is clicked without a hit
-    if (hits > 0) {
+// Check if a click is a miss
+document.getElementById("game").addEventListener("click", function (event) {
+    const target = document.getElementById("target");
+    const rect = target.getBoundingClientRect();
+
+    const x = event.clientX;
+    const y = event.clientY;
+
+    if (x < rect.left || x >= rect.right || y < rect.top || y >= rect.bottom) {
+        // Click is outside the target boundaries
         misses++;
         updateMisses();
     }
-}
+});
 
 // Setup
 updateScore();

@@ -31,7 +31,9 @@ body
 
 .fa-compress
 {
-    border: none;
+    background: transparent;
+    border: 0;
+    outline: 0;
 }
 
 #game
@@ -73,7 +75,21 @@ body
     color: white;
     position: absolute;
     bottom: 10px;
+}
+
+#score
+{
     left: 10px;
+}
+
+#accuracy
+{
+    left: 470px;
+}
+
+#misses
+{
+    left: 975px;
 }
 
 .bottom
@@ -81,9 +97,4 @@ body
     position: absolute;
     bottom: 10px;
     left: 10px;
-}
-
-
-#misses {
-    color: red;
 }

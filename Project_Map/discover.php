@@ -21,14 +21,13 @@
         <div class="search-box">
             <div class="row">
                 <input type="text" id="input-box" placeholder="Search">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button onclick="searchRedirect()"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div class="result-box"></div>
         </div>
         <div class="search-thumbnail">
             <img src="./img/AimForge.png" class="Bthumb" onclick="redirectToAimForgePage()">
-            <img src="./img/AimForge.png" class="Ethumb">
-            <img src="./img/AimForge.png" class="Jthumb">
+            <!-- ... (other images) ... -->
         </div>
     </div>
     <script src="./autocomplete.js"></script>

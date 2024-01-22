@@ -43,23 +43,8 @@
 <div class="creditsandinfo">
     <p class="padding">
         Credits to Marlon and EpicGames for inspiration.     
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
-        <i class="fa-solid fa-minus"></i> Hello my name is Bradley, I created 
-        this game to improve shooter game players or games that needs high accuracy
-    </p>
+        <i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus"></i>
+        Hello my name is Bradley, I created this game to improve shooter game players or games that needs high accuracy</p>
 </div>
 <p class="date">&copy; Dec 19, 2024</p>
 </main>
