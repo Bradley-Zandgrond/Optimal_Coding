@@ -1,3 +1,4 @@
+/* Auteur: Bradley Zandgrond */
 let availableKeywords = [
     'Aim Forge',
     'Emir Game',

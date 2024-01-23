@@ -11,8 +11,8 @@ body
 {
     background-color: #ffffff;
     border: none;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -29,11 +29,13 @@ body
     transform: translate(-50%, -50%);
 }
 
-.fa-compress
+.fa-compress, .compress
 {
     background: transparent;
+    font-size: 25px;
     border: 0;
     outline: 0;
+    color: #ffffff;
 }
 
 #game
@@ -73,28 +75,16 @@ body
 #score, #accuracy, #misses
 {
     color: white;
+    display: inline-flex;
     position: absolute;
     bottom: 10px;
-}
-
-#score
-{
-    left: 10px;
-}
-
-#accuracy
-{
-    left: 470px;
-}
-
-#misses
-{
-    left: 975px;
 }
 
 .bottom
 {
+    display: inline-flex;
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    justify-content: space-evenly;
+    align-items: center;
 }

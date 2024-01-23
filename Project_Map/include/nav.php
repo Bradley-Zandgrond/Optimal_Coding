@@ -17,4 +17,5 @@
             <button id="Btn" onclick="alert('Optimal Coding got added to your browser (just for show)')">download</button>
         </div>
     </div>
+    <script src="./scriptMenu.js"></script>
 </nav>
