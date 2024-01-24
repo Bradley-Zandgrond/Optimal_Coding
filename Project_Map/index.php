@@ -16,7 +16,13 @@
     include ("./include/nav.php");
 ?>
 <main>
-
+    <h1>Optimal Coding</h1>
+    <div>
+        <p>reded voor doelen website</p>
+    </div>
+    <div>
+        <img src="" alt="">
+    </div>
 </main>
 <?php
     include ("./include/footer.php");

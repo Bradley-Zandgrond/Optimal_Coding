@@ -174,3 +174,58 @@
     font-size: 18px;
     margin-left: 1rem;
 }
+
+/* news.css */
+.news-template
+{
+    color: white;
+    font-size: 18px;
+}
+
+.news1
+{
+    display: flex;
+    top: 60px;
+    left: 60px;
+}
+
+.photo1
+{
+    width: 50%;
+    height: auto;
+}
+
+.txt1
+{
+
+}
+
+.news2
+{
+
+}
+
+.photo2
+{
+
+}
+
+.txt2
+{
+
+}
+
+.news3
+{
+
+}
+
+.photo3
+{
+
+}
+
+.txt3
+{
+
+}

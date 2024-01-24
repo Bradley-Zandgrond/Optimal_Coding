@@ -17,7 +17,20 @@
 ?>
 <main>
     <div class="news-template">
-        
+        <div class="news1">
+            <img class="photo1" src="./img/AimForge.png" alt="news1">
+            <p class="txt1"></p>
+        </div>
+        <div class="vertical-line">streep</div>
+        <div class="news2">
+            <img class="photo2" src="./img/AimForge.png" alt="news2">
+            <p class="txt2"></p>
+        </div>
+        <hr>
+        <div class="news3">
+            <img class="photo3" src="./img/placeholder.png" alt="news3">
+            <p class="txt3"></p>
+        </div>
     </div>
 </main>
 <?php
