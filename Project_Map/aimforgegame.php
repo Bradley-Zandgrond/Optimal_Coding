@@ -11,12 +11,6 @@
 </head>
 <body>
     <main>
-        <div class="Menu">
-            <div class="play">Play</div>
-            <div class="challenges">Challenges</div>
-            <div class="settings">Settings</div>
-            <div class="extra">Extra</div>
-        </div>
         <div class="gameContainer">
             <div id="game">
                 <div id="target" onclick="hitTarget()"></div>

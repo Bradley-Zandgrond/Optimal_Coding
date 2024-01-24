@@ -67,6 +67,7 @@ updateAccuracy();
 updateMisses();
 randomizeTarget();
 
+// togglefullscreenmode
 function toggleFullScreen() {
     const gameContainer = document.getElementById("game");
     if (!document.fullscreenElement) {

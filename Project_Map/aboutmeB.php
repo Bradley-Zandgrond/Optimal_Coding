@@ -17,7 +17,7 @@
 ?>
 <main>
     <div class="userPage">
-        <img class="photo" src="./img/bradley.png">
+        <img class="photo" src="./img/overons-bradley.jpg">
         <p class="pinfo">
         <br><span class="pname" style="font-size: 30px;">Bradley Zandgrond</span><br><br>
         Hallo ik ben Bradley Zandgrond.<br>
